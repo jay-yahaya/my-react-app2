@@ -63,7 +63,7 @@ export default function Game() {
   }
 
   function jumpTo(nextMove) {
-    // next
+    // TODO
   }
 
   const moves = history.map((squares, move) => {
@@ -86,7 +86,7 @@ export default function Game() {
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       </div>
       <div className="game-info">
-        <ol>{/*TODO*/}</ol>
+        <ol>{moves}</ol>
       </div>
     </div>
   );
